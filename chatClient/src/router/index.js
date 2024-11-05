@@ -23,7 +23,7 @@ const router = new Router({
     {
       path: '/chat',
       name: 'Layout',
-      component: () => import('@/views/layout'),
+      
       redirect: '/chat/home',
       meta: {
         requiresAuth: true,
